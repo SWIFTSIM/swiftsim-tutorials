@@ -19,8 +19,10 @@ requires a Riemann solver. You could also try changing the kernel
 
 The resulting plots should look like the following:
 
-![Sedov Blast (2D) with ANARCHY-DU](plots/sedov_anarchy_scheme.png)
+![Sedov Blast (2D) with ANARCHY-DU](plots/sedov_anarchy_sph.png)
 
 or for the GIZMO-MFM scheme:
 
 ![Sedov Blaste (2D) with GIZMO-MFM](plots/sedov_gizmo_mfm.png)
+
+Next: [Simulating a Galaxy](simulating_a_galaxy.md)

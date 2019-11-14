@@ -42,7 +42,12 @@ SWIFT includes several hydrodynamics models, with most of these not including
 Riemann solvers. In the information below, each model will be explored in
 turn.
 
+Next: [Getting Started](getting_started.md)
+
 [^1]: Borrow et al. 2018, SPHERIC; https://ui.adsabs.harvard.edu/abs/2018arXiv180701341B/abstract.
+
 [^2]: Available at gitlab.cosma.dur.ac.uk/swift/swiftsim or mirrored at github.com/swiftsim/swiftsim.
+
 [^3]: These are available on our GitHub, github.com/swiftsim/swiftsimio. You can also install them with pip.
+
 [^4]: Documentation is available at swiftism.com/docs.

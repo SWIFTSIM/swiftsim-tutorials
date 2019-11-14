@@ -50,4 +50,6 @@ models:
 
 ![Image of a SodShock from SWIFT using MFV](plots/sod_shock_gizmomfv.png)
 
+Next: [Shock Performance](shock_performance.md)
+
 [^SPHMHD]: Available at https://arxiv.org/abs/1012.1885.

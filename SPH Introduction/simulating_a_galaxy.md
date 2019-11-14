@@ -109,7 +109,7 @@ plt.show()
 
 In a very anti-climactic result you will get the following image:
 
-![First image of your galaxy!](first_image_of_galaxy.png)
+![First image of your galaxy!](plots/first_image_of_galaxy.png)
 
 This occurs because we simulate the galaxy inside a large volume (relative to
 the galaxy).
@@ -141,7 +141,7 @@ plt.show()
 
 This will result in a much clearer image like the following:
 
-![A much better image of your galaxy!](second_image_of_galaxy.png)
+![A much better image of your galaxy!](plots/second_image_of_galaxy.png)
 
 Before moving on you should take a look at the galaxy at some other times.
 During the first 25 to 50 snapshots, it will be settling into equilibrium, but
