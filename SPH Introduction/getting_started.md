@@ -57,3 +57,5 @@ pip install swiftsimio matplotlib
 ```
 
 This should install all necessary components for reading the output files.
+
+Next: [Your First Example](your_first_example.md)
