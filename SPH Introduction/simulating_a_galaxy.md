@@ -87,6 +87,20 @@ This will show a histogram of densities that should look something like this:
 
 ![Histogram of densities in the isolated galaxy](plots/density_histogram.png)
 
+You can explore more about the `data.gas.densities` field (or any other field)
+by accessing the available properties:
+
++ `field.description`, a text description of what the field holds
++ `field.units`, the current symbolic units of the field
++ `field.cosmo_factor`, a sub-object containing:
+  - `field.cosmo_factor.a_factor`, the conversion for co-moving to physical
+  - `field.cosmo_factor.expr`, the symbolic representation of the associated
+    a-factor for this array
+
+Explore a few more of the properties. You can get a list of the available
+gas properties from `data.metadata.gas_properties.field_names`, or by inspecting
+the object yourself.
+
 ### Making pretty pictures
 
 A much more interesting way to visualise this data would be to make an image
