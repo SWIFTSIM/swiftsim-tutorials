@@ -5,4 +5,5 @@ tutorial through in the following order:
 + [Getting Started](getting_started.md)
 + [Your First Example](your_first_example.md)
 + [Shock Performance](shock_performance.md)
++ [The Kelvin-Helmholtz Instability](kelvin_helmholtz.md)
 + [Simulating a Galaxy](simulating_a_galaxy.md)

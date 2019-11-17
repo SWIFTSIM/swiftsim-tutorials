@@ -25,4 +25,4 @@ or for the GIZMO-MFM scheme:
 
 ![Sedov Blaste (2D) with GIZMO-MFM](plots/sedov_gizmo_mfm.png)
 
-Next: [Simulating a Galaxy](simulating_a_galaxy.md)
+Next: [The Kevlin-Helmholtz Instability](kelvin_helmholtz.md)
