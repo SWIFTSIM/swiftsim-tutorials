@@ -18,7 +18,7 @@ You should use the `anarchy-du` hydrodynamics scheme (no need for a Riemann
 solver) with this example, with your choice of kernel.
 
 Once you have configured and built the code, you should change to the
-`examples/IsolatedGalaxy/isolatedgalaxy_feedback` directory and run it. This
+`examples/IsolatedGalaxy/IsolatedGalaxy_feedback` directory and run it. This
 will download:
 
 + The initial conditions
@@ -41,7 +41,11 @@ most quantities, and you can convert between them by using the units defined
 within `unyt` itself.
 
 It is best, for now, to either explore the data in a jupyter notebook, or an
-interactive python shell (whichever you feel most comfortable with).
+interactive python shell (whichever you feel most comfortable with). Note
+that the purpose of the text being included here and not in a file shipped
+with the repository is for you to read through the code more carefully. We
+suggest typing this code directly into your text file or interpreter, rather
+than copy-pasting it.
 
 To load data, import the library and open the first snapshot:
 

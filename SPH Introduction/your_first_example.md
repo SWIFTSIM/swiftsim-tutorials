@@ -17,6 +17,13 @@ The first example is a Sod Shock, which is included with SWIFT. Change to
 + Run SWIFT using the included parameter file, `sodShock.yml`.
 + Create a plot of the output using the `plotSolution.py` python script. 
 
+When you do each of these steps, you should look at the contents of each
+file, with a particular focus on the `run.sh` file. SWIFT uses many
+run-time command-line arguments to enable different features, and
+set the threading options. You may wish to change the number of
+`--threads` to something more suited to your own machine. Physics
+and run-time parameters are set using the `yml` parameter file.
+
 The output of the run is two HDF5 files, and a plot, which should look
 something like this:
 

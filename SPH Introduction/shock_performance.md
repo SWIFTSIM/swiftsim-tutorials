@@ -17,6 +17,8 @@ requires a Riemann solver. You could also try changing the kernel
 `./configure --help`. For some kernels, you will also need to supply
 `--disable-hand-vec`.
 
+Don't forget to check out the contents of the `run.sh` files.
+
 The resulting plots should look like the following:
 
 ![Sedov Blast (2D) with ANARCHY-DU](plots/sedov_anarchy_sph.png)
@@ -24,5 +26,8 @@ The resulting plots should look like the following:
 or for the GIZMO-MFM scheme:
 
 ![Sedov Blaste (2D) with GIZMO-MFM](plots/sedov_gizmo_mfm.png)
+
+They will of course look different should you run the schemes in different
+dimensions.
 
 Next: [The Kevlin-Helmholtz Instability](kelvin_helmholtz.md)

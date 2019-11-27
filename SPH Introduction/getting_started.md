@@ -12,9 +12,14 @@ To get started with SWIFT, you will need (working versions) of the following:
 + An installation of the GSL library.
 + An installation of the FFTW library.
 
-The following are useful to have, but are not strictly necessary for the demonstrations below:
+The following are useful to have, but are not strictly necessary for the
+demonstrations below:
 
 + An installation of some other allocator, such as tbbmalloc.
+
+You can learn how to install these with your specific package manager
+by searching the name of your operating system combined with the name of
+the package.
 
 ### Downloading and Building SWIFT
 
@@ -45,7 +50,12 @@ out-of-source build.
 
 Finally, note that you will have to pass `CFLAGS="-fno-stack-check"` to the
 configure script should you wish to compile SWIFT on a Mac running MacOS
-Catalina (due to a bug in the shipped version of `clang`).
+Catalina (due to a bug in the shipped version of `clang`). You can do this
+by adding it as another command line argument, i.e.
+
+```
+./configure CFLAGS=-fno-stack-check
+```
 
 ### Installing the SWIFT python tools
 
@@ -53,9 +63,16 @@ To install the python tools, all you need to do is use the python package
 manager, `pip`,
 
 ```
-pip install swiftsimio matplotlib
+pip install swiftsimio matplotlib scipy
 ```
 
 This should install all necessary components for reading the output files.
+You will need modern python (3). Legacy python (2) is not supported by the
+SWIFT project.
+
+You will probably find it useful to install the `numba` python library
+at the same time should you wish to visualise your outputs as images
+and movies. This significantly decreases the post-processing computation
+time.
 
 Next: [Your First Example](your_first_example.md)
